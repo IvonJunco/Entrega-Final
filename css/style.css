@@ -22,7 +22,6 @@ body {
   background-color: rgb(241, 238, 214);
 }
 
-/* index */
 .words {
   font-family: "Montserrat", sans-serif;
   color: rgb(221, 56, 56);
@@ -30,8 +29,7 @@ body {
   line-height: 1;
   text-align: center;
 }
-
-.words span {
+.wordsspan {
   font-size: 2rem;
   display: inline-block;
   -webkit-animation: move 3s ease-in-out infinite;

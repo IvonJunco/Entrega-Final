@@ -1,0 +1,14 @@
+//Variables
+$baseColor:rgb(221, 56, 56);
+$baseFont:'Montserrat', sans-serif;
+$altFont:'Merriweather', serif;
+
+h1 {
+    color: $baseColor;
+    text-align: center;
+    font-family: $baseFont;
+}
+
+h2 {
+    font-family: $altFont;
+}

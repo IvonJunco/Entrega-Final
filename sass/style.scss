@@ -1,31 +1,9 @@
 @import "fuentes";
+@import "titulo";
 @import "generales";
-/* index */
-.words{
-  font-family: 'Montserrat', sans-serif;
-  color:rgb(221, 56, 56);
-  font-size: 0;
-  line-height: 1;
-  text-align: center;
-}
+@import "index";
 
-.words span{
-  font-size: 2rem;
-  display:inline-block;
-  animation: move 3s ease-in-out infinite;
-}
 
-@keyframes move{
-0%{
-  transform: translate(-30%, 0);
-}
-50%{
-  text-shadow:0 25px 50px rgba(0, 0, 0, 0.75) ;
-}
-100%{
-  transform: translate(30%, 0);
-}
-}
 /* Botón whats App */
 .btn-wsp {
     position: fixed;
